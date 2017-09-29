@@ -1,0 +1,347 @@
+/* Theme stylesheet for this portfolio website */
+
+/* 
+    Main theme color: #0fc3b8
+    Headings & Navigations: #4e5867
+    Content: #555
+*/
+
+body, html{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'open sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #4e5867;
+    text-transform: uppercase;
+    font-family: 'raleway', sans-serif;
+    margin 10px 0;
+    margin-top: 0;
+}
+
+p{
+    padding: 0;
+    margin: 10px 0;
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.7em;
+}
+
+a{
+    text-decoration: none;
+    color: #0fc3b8;
+}
+
+span.tag{
+    background-color: transparent;
+    color: #0fc3b8;
+    border: thin solid #0fc3b8;
+    border-radius: 3px;
+    padding: 5px 15px;
+    font-size: 0.7em;
+}
+
+div.tag-wrapper{
+    margin-bottom: 30px;
+}
+
+img#back-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: -100px;
+    z-index: 999;
+    width: 80px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+input{
+    outline: none;
+}
+
+input.button, button, input.hallow{
+    border-radius: 200px;
+    background-color: #0fc3b8;
+    border: thin solid #0fc3b8;
+    color: white;
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+input.hallow{
+    background-color: transparent;
+    color: #0fc3b8;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > i.fa{
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+nav.sticky-nav, header nav{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 10px 0;
+    width: 100%;
+    color: #4e5867;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul.social{
+    width: 30%;
+    text-align: right;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    cursor: pointer;
+    font-family: 'raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+nav.sticky-nav > i.fa{
+    color: #4e5867;
+    display: none;
+}
+
+nav.sticky-nav{
+    position: fixed;
+    padding: 20px 10%;
+    background-color: white;
+    border-bottom: thin solid #ddd;
+    top: -200px;
+    z-index: 999;
+}
+
+nav.sticky-nav li{
+    color: #4e5867;
+}
+
+nav li#logo img{
+    width: 20%;
+    vertical-align: middle;
+}
+
+nav li#logo img.logo-icon{
+    display: none;
+}
+
+nav li#logo{
+    padding: 0;
+    margin: 0;
+    margin-right: 15px;
+}
+
+header{
+    padding: 40px 10%;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+header div#header-wrapper{
+    position: relative;
+    z-index: 1;
+}
+
+header div#parallax-header{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150%;
+    background-image: url('../assets/images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header div#profile-pic{
+    margin: 50px auto;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    background-image: url('../assets/images/profile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header div#info-wrapper{
+    margin: 100px 0;
+}
+
+header div#info-wrapper p.tagline{
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+
+div.two-column-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+div.two-column-content > div{
+    width: 40%;
+}
+
+div.three-column-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.three-column-content > div{
+    text-align: center;
+    width: 27%;
+    margin: 30px 0;
+}
+
+div.links-info p{
+    display: flex;
+    align-items: center;
+}
+
+section{
+    padding: 70px 10%;
+    border-bottom: thin solid #eee;
+}
+
+section h2{
+    text-align: center;
+}
+
+section#about{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+section#about img.featured-image{
+    width: 10%;
+    height: 10%;
+    margin-right: 30px;
+}
+
+section#about > div{
+    width: 70%;
+    text-align: center;
+}
+
+section#about p{
+    margin-bottom: 40px;
+}
+
+section#process{
+    background-color: #fafafa;
+}
+
+section#process img.featured-image{
+    width: 70%;
+}
+
+section#projects div.project-wrapper{
+    padding: 100px 0;
+    border-bottom: thin solid #ddd;
+}
+
+section#projects img.featured-image{
+    width: 50%;
+}
+
+section#projects div.project-content{
+    display: inline-block;
+    width: 45%;
+    margin: 0 25px;
+    vertical-align: top;
+}
+
+section#projects h4{
+    text-align: left;
+}
+
+section#projects p{
+    word-break: break-word;
+    text-align: left;
+    line-height: 1.95em;
+}
+
+section#projects div.tag-wrapper{
+    margin-bottom: 50px;
+}
+
+section#contact{
+    background-color: #4e5867;
+    border-bottom-color: #4e5867;
+    padding: 120px 10%;
+}
+
+section#contact div.three-column-content > div{
+    text-align: left;
+    width: 27%;
+    margin: 30px 0;
+}
+
+section#contact h2, section#contact h4, section#contact p{
+    color: white;
+}
+
+section#contact div.links-info p{
+    margin: 15px 0;
+}
+
+section#contact h4{
+    margin-bottom: 50px;
+}
+
+section#contact div.other-info div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section#contact div.other-info img{
+    width: 20%;
+    margin-right: 15px;
+}
+
+footer{
+    padding: 40px 120px;
+    background-color: #4e5867;
+}
+
+footer p{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'brandon grotesque', sans-serif;
+    font-size: 0.8em;
+}
