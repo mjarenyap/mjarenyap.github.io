@@ -182,7 +182,7 @@ header div#profile-pic{
     border-radius: 100%;
     width: 200px;
     height: 200px;
-    background-image: url('../assets/images/profile.jpg');
+    background-image: url('../assets/images/profile.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -342,6 +342,6 @@ footer p{
     text-transform: uppercase;
     color: white;
     text-align: center;
-    font-family: 'brandon grotesque', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 0.8em;
 }
