@@ -13,6 +13,7 @@
 
     nav.sticky-nav, header nav{
         justify-content: center;
+        padding: 10px 0;
     }
 
     nav ul li{
@@ -31,6 +32,10 @@
     
     nav li#logo img.logo-banner{
         display: none;
+    }
+
+    header{
+        padding: 40px 5%;
     }
     
     section#about div.content-wrapper, header div#info-wrapper p.tagline,
