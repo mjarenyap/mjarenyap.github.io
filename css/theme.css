@@ -15,9 +15,9 @@ body, html{
 
 h1, h2, h3, h4, h5, h6{
     color: #4e5867;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: 'raleway', sans-serif;
-    margin 10px 0;
+    margin: 10px 0;
     margin-top: 0;
 }
 
@@ -25,7 +25,7 @@ p{
     padding: 0;
     margin: 10px 0;
     color: #666;
-    font-size: 1.0em;
+    font-size: 1.05em;
     line-height: 1.7em;
 }
 
@@ -236,17 +236,17 @@ div.links-info p{
 
 section{
     padding: 70px 10%;
+    margin: 0 auto;
     border-bottom: thin solid #eee;
 }
 
-section h2{
+section h1{
     text-align: center;
+    font-size: 2em;
 }
 
 section#about{
     background-color: white;
-    display: flex;
-    justify-content: center;
 }
 
 section#about img.featured-image{
@@ -255,9 +255,12 @@ section#about img.featured-image{
     margin-right: 30px;
 }
 
-section#about > div{
+section#about > div#bio{
     width: 70%;
     text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2em;
 }
 
 section#about p{
@@ -274,16 +277,19 @@ section#process{
 }
 
 section#process img.featured-image{
-    width: 70%;
+    width: 15vw;
+    margin-bottom: 1em;
 }
 
 section#projects div.project-wrapper{
     padding: 100px 0;
     border-bottom: thin solid #ddd;
+    display: block;
+    margin: auto;
 }
 
 section#projects img.featured-image{
-    width: 50%;
+    width: 30vw;
 }
 
 section#projects div.project-content{
@@ -319,7 +325,7 @@ section#contact div.three-column-content > div{
     margin: 30px 0;
 }
 
-section#contact h2, section#contact h4, section#contact p{
+section#contact h1, section#contact h4, section#contact p{
     color: white;
 }
 
