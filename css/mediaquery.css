@@ -1,94 +1,65 @@
-/* mediaquery handler */
+/* responsive web designing */
+@media only screen and (max-width: 670px) {
+	nav div.flex-end {
+		justify-content: center;
+	}
 
-@media only screen and (max-width: 1368px){
-    section#projects div.project-content{
-        width: 40%;
-    }
-}
+	nav ul li {
+		font-size: 0.7em;
+		padding: 1em 1em;
+		margin: 0;
+	}
 
-@media only screen and (max-width: 1160px){
-    #back-to-top{
-        display: none;
-    }
+	nav {
+		border-top: thin solid var(--line-color);
+	}
 
-    nav.sticky-nav, header nav{
-        justify-content: center;
-        padding: 10px 0;
-    }
+	header div.wrapper, section#workshops div.wrapper,
+	section#websites div.wrapper {
+		margin-top: 2em !important;
+	}
 
-    nav ul li{
-        padding: 10px 8px;
-        font-size: 0.7em;
-    }
-    
-    nav ul.social{
-        display: none;
-    }
-    
-    nav li#logo img.logo-icon{
-        width: 30px;
-        display: inline;
-    }
-    
-    nav li#logo img.logo-banner{
-        display: none;
-    }
+	div.wrapper {
+		width: 90%;
+	}
 
-    header{
-        padding: 40px 5%;
-    }
-    
-    section#about div.content-wrapper, header div#info-wrapper p.tagline,
-    section#projects div.project-content{
-        width: 100%;
-    }
+	section#process div.flex-between,
+	section#workshops div.flex-between {
+		display: block;
+	}
 
-    section#process{
-        padding: 70px 0;
-    }
-    
-    section#projects img.featured-image{
-        width: 100%;
-    }
-    
-    section#projects div.project-content, section#projects div.project-content p,
-    section#projects div.project-content h4{
-        text-align: center;
-    }
-    
-    section#projects div.project-content{
-        display: block;
-        margin: auto;
-    }
+	section#process div.phase {
+		margin-right: 0;
+	}
 
-    section#projects div.project-content button{
-        display: block !important;
-        margin: 0 auto;
-    }
-    
-    div.three-column-content > div, section#contact div.three-column-content > div{
-        flex-direction: column;
-        width: 70%;
-        margin: 40px auto;
-    }
+	section#workshops img.featured-image {
+		width: 30% !important;
+		margin-bottom: 1em;
+	}
 
-    section#contact{
-        padding: 70px 5%;
-    }
-    
-    section#contact div.three-column-content > div{
-        margin: 60px auto;
-    }
-    
-    section#contact div.three-column-content > div p{
-        font-size: 1em;
-    }
-    
-    section#process div.three-column-content img{
-        width: 100%;
-    }
+	h1.featured-icons {
+		font-size: 3em !important;
+	}
 
-    footer{
-        padding: 40px 5%;
-    }
+	button {
+		width: 100%;
+	}
+
+	footer {
+		margin-bottom: 8em !important;
+	}
+
+	.flex-start {
+		display: block;
+	}
+
+	.excess {
+		display: none;
+	}
+
+	.social-media-wrapper {
+		display: block;
+		margin-top: 1em;
+		text-align: center;
+	}
 }

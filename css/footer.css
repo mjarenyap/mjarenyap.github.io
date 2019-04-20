@@ -1,0 +1,10 @@
+/* footer stylesheet */
+footer div.wrapper {
+	border-top: thin solid var(--line-color);
+	padding-top: 1.3em;
+}
+
+footer div.wrapper * {
+	font-size: 0.85em;
+	line-height: 1.2em;
+}

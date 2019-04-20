@@ -1,0 +1,48 @@
+/* section stylesheet */
+
+section#process div.phase {
+	margin: 1.3em 0;
+}
+
+section#process div.phase-group:nth-child(1) {
+	margin-right: 1.3em;
+}
+
+section#workshops div.content-wrapper > div {
+	margin: 2em 0;
+}
+
+section#workshops p {
+	margin: 0.7em 0;
+}
+
+section#workshops img.featured-image {
+	display: block;
+	margin-right: 1.6em;
+}
+
+section#workshops img.featured-image.square {
+	width: 17%;
+	height: 17%;
+}
+
+section#workshops img.featured-image.banner {
+	width: 35%;
+}
+
+section#workshops img.featured-image.rounded {
+	border-radius: 100%;
+}
+
+section#websites img.featured-image {
+	display: block;
+	width: 100%;
+	border-radius: 1em;
+	margin-bottom: 2em;
+	box-shadow: 0px 0px 5px var(--line-color);
+}
+
+section#websites div.content-wrapper > div {
+	margin: 3em 0;
+	margin-bottom: 5em;
+}
