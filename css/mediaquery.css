@@ -1,23 +1,21 @@
 /* responsive web designing */
 @media only screen and (max-width: 670px) {
 	nav div.flex-end {
-		justify-content: center;
+		justify-content: flex-start;
 	}
 
 	nav ul li {
 		font-size: 0.7em;
-		padding: 1em 1em;
+		padding: 1em 0.8em;
 		margin: 0;
 	}
 
-	nav {
-		border-top: thin solid var(--line-color);
-	}
-
+	/*
 	header div.wrapper, section#workshops div.wrapper,
 	section#websites div.wrapper {
 		margin-top: 2em !important;
 	}
+	*/
 
 	div.wrapper {
 		width: 90%;

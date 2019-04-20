@@ -19,7 +19,8 @@ $(document).ready(function(){
 		if($(window).width() <= 670){
 			navHeight = $("#main-nav").height();
 			navPosition = $(window).height() - navHeight;
-			$("#main-nav").css("top", navPosition);
+			$("#main-nav").css("bottom", 0);
+			$("#main-nav").css("top", "none");
 		}
 
 		else{
