@@ -37,12 +37,12 @@ section#workshops img.featured-image.rounded {
 section#websites img.featured-image {
 	display: block;
 	width: 100%;
-	border-radius: 1em;
+	border-radius: 0.5em;
 	margin-bottom: 2em;
 	box-shadow: 0px 0px 5px var(--line-color);
 }
 
 section#websites div.content-wrapper > div {
 	margin: 3em 0;
-	margin-bottom: 5em;
+	margin-bottom: 8em;
 }
