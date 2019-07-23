@@ -9,6 +9,7 @@ nav {
 	box-sizing: border-box;
 	width: 100%;
 	background-color: var(--white);
+	z-index: 999;
 }
 
 nav > div.wrapper{
