@@ -1,5 +1,6 @@
 $(document).ready(function() {
 	$('.hide').removeClass('hide');
+	$('#copyYear').append(new Date().getFullYear());
 });
 
 /*
