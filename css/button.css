@@ -9,7 +9,7 @@ button {
 	text-decoration: none;
 	display: inline-block;
 	border: thin solid var(--line-color);
-	font-family: 'Proxima-Nova';
+	font-family: 'DM-Sans';
 	box-shadow: 0px 2px 2px var(--line-color);
 	transition: ease all 0.3s;
 }

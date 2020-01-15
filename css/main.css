@@ -17,6 +17,16 @@
 	src: url('../assets/fonts/ProximaNova-Bold.otf') format("opentype");
 }
 
+@font-face {
+	font-family: 'DM-Sans';
+	src: url('../assets/fonts/DMSans-Regular.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'DM-Sans-Bold';
+	src: url('../assets/fonts/DMSans-Bold.ttf') format("truetype");
+}
+
 :root {
 	--white: #FDFDFD;
 	--black: #3B3E42;
@@ -25,7 +35,7 @@
 	--main-color: #3FB8AF;
 	--line-color: #DEDEDE;
 
-	font-family: 'Proxima-Nova';
+	font-family: 'DM-Sans';
 	color: var(--gray);
 }
 
@@ -43,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	font-weight: lighter;
-	font-family: 'Proxima-Nova-Bold';
+	font-family: 'DM-Sans-Bold';
 	line-height: 1.5em;
 	color: var(--black);
 }
@@ -72,7 +82,7 @@ h4 {
 }
 
 b {
-	font-family: 'Proxima-Nova-Bold';
+	font-family: 'DM-Sans-Bold';
 	font-weight: lighter;
 }
 
