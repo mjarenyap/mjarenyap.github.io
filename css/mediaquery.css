@@ -10,19 +10,35 @@
 		margin: 0;
 	}
 
-	/*
-	header div.wrapper, section#workshops div.wrapper,
-	section#websites div.wrapper {
-		margin-top: 2em !important;
+	#profile {
+		width: 8em !important;
 	}
-	*/
+
+	h1 {
+		font-size: var(--value-24) !important;
+	}
+
+	h2 {
+		font-size: 1.125rem !important;
+	}
+
+	h3 {
+		font-size: var(--value-16) !important;
+	}
+
+	h4 {
+		font-size: var(--value-12) !important;
+	}
+
+	p {
+		font-size: 0.75rem !important;
+	}
 
 	div.wrapper {
 		width: 90%;
 	}
 
-	section#process div.flex-between,
-	section#workshops div.flex-between {
+	section#process div.flex-between {
 		display: block;
 	}
 

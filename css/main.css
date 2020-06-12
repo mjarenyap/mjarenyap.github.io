@@ -6,6 +6,7 @@
 @import url(section.css);
 @import url(footer.css);
 @import url(mediaquery.css);
+@import url(utilities.css);
 
 @font-face {
 	font-family: 'Proxima-Nova';
@@ -27,6 +28,16 @@
 	src: url('../assets/fonts/DMSans-Bold.ttf') format("truetype");
 }
 
+@font-face {
+	font-family: 'Circular';
+	src: url('../assets/fonts/CircularStd-Book.otf') format("truetype");
+}
+
+@font-face {
+	font-family: 'Circular-Bold';
+	src: url('../assets/fonts/CircularStd-Bold.otf') format("truetype");
+}
+
 :root {
 	--white: #FDFDFD;
 	--black: #3B3E42;
@@ -35,7 +46,24 @@
 	--main-color: #3FB8AF;
 	--line-color: #DEDEDE;
 
-	font-family: 'DM-Sans';
+	--value-4: 0.25rem;
+	--value-8: 0.5rem;
+	--value-12: 0.75rem;
+	--value-16: 1rem;
+	--value-24: 1.5rem;
+	--value-32: 2rem;
+	--value-48: 3rem;
+	--value-64: 4rem;
+	--value-96: 6rem;
+	--value-128: 8rem;
+	--value-192: 12rem;
+	--value-256: 16rem;
+	--value-384: 24rem;
+	--value-512: 32rem;
+	--value-640: 40rem;
+	--value-768: 48rem;
+
+	font-family: 'Circular';
 	color: var(--gray);
 }
 
@@ -53,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
 	font-weight: lighter;
-	font-family: 'DM-Sans-Bold';
+	font-family: 'Circular-Bold';
 	line-height: 1.5em;
 	color: var(--black);
 }
